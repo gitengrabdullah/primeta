@@ -2,7 +2,7 @@
 .navbar {
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 999;
   transition: background 0.3s, box-shadow 0.3s;
   background: transparent;
@@ -21,7 +21,7 @@
 /* Container */
 .navbar-container {
   max-width: 1200px;
-  margin: auto;
+  /* margin: auto; */
   padding: 1.2rem 2rem;
   display: flex;
   align-items: center;

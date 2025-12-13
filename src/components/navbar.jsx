@@ -86,7 +86,7 @@ export default function Navbar() {
 
         {/* Actions */}
         <div className="navbar-actions">
-          <button className="icon-btn">🔍</button>
+          {/* <button className="icon-btn">🔍</button> */}
           <button
             className={`hamburger ${menuOpen ? "open" : ""}`}
             onClick={() => setMenuOpen(!menuOpen)}

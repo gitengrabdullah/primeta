@@ -54,11 +54,13 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Navbar from "./components/navbar";
 import "./home.css";
 
 export default function Hero() {
   return (
     <div className="hero-container">
+      <Navbar/>
       <div className="hero-grid-wrapper">
         <div className="hero-grid">
           {/* Left Text Side */}

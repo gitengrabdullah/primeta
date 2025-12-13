@@ -76,7 +76,7 @@ export default function Hero() {
             <p>
               WordPress template demo headline. Modern landing page website mockup template.
             </p>
-            <button>Learn More</button>
+            <button>Get Registred</button>
           </motion.div>
 
           {/* Right Side Image */}

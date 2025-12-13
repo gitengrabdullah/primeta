@@ -74,7 +74,8 @@ export default function Hero() {
               Get Ahead <br /> Of The Curve.
             </h1>
             <p>
-              WordPress template demo headline. Modern landing page website mockup template.
+              Learn with the best. <br/>
+              With as minimum as you can possibly imagine.
             </p>
             <button>Get Registred</button>
           </motion.div>

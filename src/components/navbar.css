@@ -9,10 +9,11 @@
 }
 
 .navbar.scrolled {
-  background: rgba(219, 146, 10, 0.85);
-  /* color: #ddd; */
+  /* background: rgba(219, 146, 10, 0.85); */
+  background-color: #100731;
+  color: #ddd;
   backdrop-filter: blur(8px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 /* .navbar.scrolled .logo-text, {
     color: #bf0de2;

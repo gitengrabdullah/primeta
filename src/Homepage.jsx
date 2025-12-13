@@ -92,9 +92,9 @@ export default function Hero() {
 
             {/* Play Button
             <div className="play-button-container">
-              <div className="play-button">
-                <div className="play-button-triangle"></div>
-              </div> */}
+            <div className="play-button">
+            <div className="play-button-triangle"></div>
+            </div> */}
             {/* </div> */}
           </motion.div>
         </div>
@@ -107,7 +107,15 @@ export default function Hero() {
           d="M0,224L48,218.7C96,213,192,203,288,170.7C384,139,480,85,576,58.7C672,32,768,32,864,74.7C960,117,1056,203,1152,208C1248,213,1344,139,1392,101.3L1440,64V320H0Z"
         />
       </svg>
-
     </div>
+          
   );
+}
+
+function Cont(){
+  return(
+    <>
+    <h1>Heloo</h1>
+    </>
+  )
 }

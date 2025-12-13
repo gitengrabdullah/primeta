@@ -1,8 +1,8 @@
 /* Container */
 .hero-container {
-  position: absolute;
+  position: relative;
   width: 94% !important;
-  min-height: 100vh;
+  /* height: 70vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@
 /* Inner Grid Wrapper */
 .hero-grid-wrapper {
   width: 100%;
-  min-height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;

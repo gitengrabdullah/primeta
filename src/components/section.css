@@ -19,21 +19,21 @@
   background: #ffffff;
   padding: 2.5rem 2rem;
   border-radius: 12px;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 15px 40px rgba(68, 33, 33, 0.801);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .step-box:hover {
   transform: translateY(-8px);
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 25px 60px rgba(22, 33, 100, 0.12);
 }
 
 /* Number */
 .step-number {
   display: inline-block;
-  font-size: 0.85rem;
+  font-size: 2.85rem;
   font-weight: 700;
-  color: #ff4d4f;
+  color: #f11216;
   letter-spacing: 1px;
   margin-bottom: 1rem;
 }

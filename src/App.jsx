@@ -5,14 +5,17 @@ import './App.css'
 import Hero from './Homepage'
 import StepsSection from './components/section'
 
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <Hero/>
-<StepsSection/>
+    <div className="">
 
+
+    </div>
+    <Hero/>
+    <StepsSection/>
     </>
   )
 }

@@ -88,7 +88,7 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
             className="hero-image-wrapper"
           >
-            <img src="/trader.jpg" alt="astronaut kid" />
+            <img id="ast" src="/trader.jpg" alt="astronaut kid" />
 
             {/* Play Button
             <div className="play-button-container">

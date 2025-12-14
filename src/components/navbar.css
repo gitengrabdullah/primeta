@@ -20,7 +20,7 @@
 } */
 /* Container */
 .navbar-container {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   /* margin: auto; */
   padding: 1.2rem 2rem;
   display: flex;
@@ -31,7 +31,7 @@
 /* Logo */
 .navbar-logo {
   display: flex;
-  align-items: center;
+  /* align-items: ; */
   gap: 0.4rem;
   color: white;
   font-weight: 700;
@@ -48,6 +48,10 @@
   display: flex;
   gap: 1.8rem;
   align-items: center;
+  justify-content: space-between;
+  /* border: 3px solid red; */
+  /* width: 40vw; */
+  margin-left: 20rem;
 }
 
 .navbar-menu a,

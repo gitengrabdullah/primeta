@@ -61,7 +61,7 @@ export default function Navbar() {
           <a href="#">Home</a>
 
           <div className="dropdown">
-            <span>Features</span>
+            <span>Lectures</span>
             <div className="dropdown-menu">
               <a href="#">Headers</a>
               <a href="#">Sliders</a>
@@ -79,9 +79,9 @@ export default function Navbar() {
           </div>
 
           <a href="#">Blog</a>
-          <a href="#">Portfolio</a>
+          {/* <a href="#">Portfolio</a>
           <a href="#">Shop</a>
-          <a href="#">Shortcodes</a>
+          <a href="#">Shortcodes</a> */}
         </nav>
 
         {/* Actions */}
@@ -101,12 +101,9 @@ export default function Navbar() {
       {/* Mobile Menu */}
       <div className={`mobile-menu ${menuOpen ? "show" : ""}`}>
         <a href="#">Home</a>
-        <a href="#">Features</a>
+        <a href="#">Lectures</a>
         <a href="#">Pages</a>
         <a href="#">Blog</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Shop</a>
-        <a href="#">Shortcodes</a>
       </div>
     </header>
   );
